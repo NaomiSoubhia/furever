@@ -1,5 +1,9 @@
+import FrontendLayout from "@/components/navbar/layouts/FrontendLayout";
+
 export default function Home() {
   return (
-  <h1>FurEver</h1>
+  <FrontendLayout>
+    <h1>FurEver</h1>
+  </FrontendLayout>
   );
 }
