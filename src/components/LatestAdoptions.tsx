@@ -1,5 +1,6 @@
-import { dummyAnimals } from "@/constants/dummyAnimals";
+import { DummyAnimals } from "@/constants/DummyAnimals";
 import SectionHeader from "./ui/SectionHeader";
+import AnimalCard from "./animals/AnimalCard";
 
 export default function LatestAdoptions() {
   return (
@@ -9,15 +10,8 @@ export default function LatestAdoptions() {
         <div className="my-10">   
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4
             xl:grid-cols-5">
-                {dummyAnimals.map((animal) => (
-                    <div key={animal.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src={animal.image} alt={animal.name} className="w-full h-48 object-cover" />
-                        <div className="p-4">
-                            <h3 className="text-lg font-bold">{animal.name}</h3>
-                            <p className="text-gray-600">{animal.species} • {animal.breed}</p>
-                            <p className="text-gray-500">Age: {animal.age}</p>
-                        </div>
-                    </div>
+                {DummyAnimals.map((animal) => (
+                    <AnimalCard animal={animal} key={animal.id} />
                 ))}
             </div>
         </div>

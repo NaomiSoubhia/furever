@@ -26,7 +26,7 @@ export default function HeroSection() {
                         <Link href="/adopt" className="inline-flex items-center justify-center rounded-md 
             text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none 
             focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2  
-            disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+            disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 py-2">
                             Adopt Now!
                         </Link>
                         <Link href="/about" className="inline-flex items-center border rounded-lg items-center justify-center rounded-md 

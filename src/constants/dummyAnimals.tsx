@@ -1,4 +1,4 @@
-export const dummyAnimals = [
+export const DummyAnimals = [
   {
     id: 1,
     name: "Buddy",

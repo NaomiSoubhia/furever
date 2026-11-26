@@ -16,9 +16,10 @@
   --color-border: #E5E7EB;
 
 /* Primary */
---color-primary: #1F2937;
+--color-primary: #DCC134;
 --color-primary-foreground: #FFFFFF;
---color-primary-hover: #000000;
+--color-primary-hover: #ccaa06;
+
 
   /* Accent */
   --color-accent: #2563EB;
