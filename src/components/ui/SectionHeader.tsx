@@ -10,5 +10,7 @@ export default function SectionHeader({title, subtitle}:SectionHeaderProps) {
       <p className="mt-4 text-base leading-7 text-muted-foreground 
       sm:text-lg px-6">{subtitle}</p>
     </div>
+
+    
   )
 }
