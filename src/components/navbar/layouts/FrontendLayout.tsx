@@ -1,3 +1,4 @@
+import Footer from "@/components/home/Footer";
 import Navbar from "../Navbar";
 
 export default function FrontendLayout({ children}: { 
@@ -9,6 +10,7 @@ export default function FrontendLayout({ children}: {
     <div className="mx-auto max-w-7xl w-full sm:px-6 lg:px-8" >
         {children}
         </div>
+    <Footer/>
         </>
   );
 }   
